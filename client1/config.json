@@ -13,7 +13,7 @@
     "intro": "Co-ocurrence network of common eye diseases and the drugs used to treat them"
   },
   "legend": {
-    "edgeLabel": "Coocurring terms",
+    "edgeLabel": "Cooccurring terms",
     "colorLabel": "Cluster of indications linked by their treatment",
     "nodeLabel": "Eye Diseases or Drugs"
   },
