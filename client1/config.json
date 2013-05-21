@@ -13,8 +13,8 @@
     "intro": "Co-ocurrence network of common eye diseases and the drugs used to treat them"
   },
   "legend": {
-    "edgeLabel": "Coocurrence",
-    "colorLabel": "Cluster of Idications liked by their drugs",
+    "edgeLabel": "Coocurring terms",
+    "colorLabel": "Cluster of indications linked by their treatment",
     "nodeLabel": "Eye Diseases or Drugs"
   },
   "features": {
@@ -28,9 +28,9 @@
   },
   "sigma": {
     "graphProperties": {
-      "minEdgeSize": 0.5,
+      "minEdgeSize": 0.4,
       "maxNodeSize": 12,
-      "maxEdgeSize": 1,
+      "maxEdgeSize": 0.9,
       "minNodeSize": 2
     },
     "drawingProperties": {
