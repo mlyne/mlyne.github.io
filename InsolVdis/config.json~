@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Mike Lyne",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "Drug Classes vs Drugs",
+    "more": "Co-ocurrence network of insoluble drugs by the drug class they're associated with. Search was against pubmed 2008-2013 using a set of insoluble drugs gleaned from patents.\nNavigating the map:\nThe Class vs. Drug map’s default view is set to display all the categories and drugs at once. You can select the individual categories you’re interested in and more carefully analyze the links existing between them and the drugs. Understanding the map: As shown in the map’s navigation bar, a node’s color indicates the category it belongs to, and a disease node’s size indicates its hub degree (overall number of outbound links). That is, the more links a node sends to drugs shown on the map, the bigger it appears on the map. Nodes are positioned on the map according to a topological placement algorithm, i.e. each node is positioned solely according to its linking pattern. Gephi was used for network analysis using the OpenOrd layout.\n Many algorithms make possible for a 2D rendering of an adjacent matrix - i.e. the matrix describing any graph. We used OpenOrd, a force-directed layout algorithm specialized to handle very large graphs. Force-directed layout algorithms share the same basic principle: minimizing the system’s energy while maximizing the use of the space available for the representation of the data. To minimize the system’s energy, one can, for instance, assume that nodes that are not linked to each other are pushing away from each other whereas nodes that are linked to each other are attracting each other.\n Through iterative steps the algorithm tries to find a way to position nodes where there is as little link overlap as possible. To maximize the use of the mapped space, the graph is spread as much as possible over the surface allocated for its display.\n What am I seeing?\n A node’s position on the map depends solely upon its links. A node has no predefined position, the latter being the result of the relations it has with other nodes. This means that a node with no links at all cannot be positioned on the map;\n North, East, South and West don’t matter.\n The displayed space is not based on the cardinal system (North, East, South, West), which means that the choice of a relative left-right or top-down position is purely arbitrary.\n Navigate inside the Diseasome map and analyze in detail the relations between diseases and drugs." ,
+    "intro": "Co-ocurrence network of Insolube drugs and the drug classes that they're associated with"
+  },
+  "legend": {
+    "edgeLabel": "Cooccurring terms",
+    "colorLabel": "Cluster of insoluble drugs linked by their drug classes",
+    "nodeLabel": "Classes or Insoluble Drugs"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "Dim"
+  },
+  "informationPanel": {
+    "imageAttribute": "Label",
+    "groupByEdgeDirection": true
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.3,
+      "maxNodeSize": 9,
+      "maxEdgeSize": 0.8,
+      "minNodeSize": 1.5
+    },
+    "drawingProperties": {
+      "labelThreshold": 6,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
