@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "text": "Mike Lyne",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "Pubmed Literature interactions of p70-S6K1",
+    "more": "Co-ocurrence network of S6K1 interactions from Pubmed Literature. Network analysis was against search results of pubmed (covering 2008 to 2013) using synonyms and aliases for key regulatory kinase, S6K1, gleaned from related Pubmed abstracts.\nNavigating the map:\nThe map’s default view is set to display all the interactors and categories at once. You can select the individual categories you’re interested in and more carefully analyze the links existing between them and the interactors. Understanding the map: As shown in the map’s navigation bar, a node’s color indicates the category it belongs to, and a node’s size indicates its hub degree (overall number of outbound links). That is, the more links a node sends to other interactors shown on the map, the bigger it appears on the map. The network was constructed in Gephi using a DAG layout as most centered on mTOR and Akt which meant that most placements clustered too tightly to the center and didn't give much separation.\n The displayed space is not based on the cardinal system (North, East, South, West), which means that the choice of a relative left-right or top-down position is purely arbitrary.\n Navigate inside the interactors map and analyze in detail the relations between interactors." ,
+    "intro": "Co-ocurrence network of S6K1 interactions from Pubmed Literature (2008 to 2013)"
+  },
+  "legend": {
+    "edgeLabel": "Cooccurring terms",
+    "colorLabel": "Cluster of terms related by literature association",
+    "nodeLabel": "S6K1 interactors"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "Dim"
+  },
+  "informationPanel": {
+    "imageAttribute": "Label",
+    "groupByEdgeDirection": true
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 0.3,
+      "maxNodeSize": 9,
+      "maxEdgeSize": 0.8,
+      "minNodeSize": 1.5
+    },
+    "drawingProperties": {
+      "labelThreshold": 6,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#000",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
