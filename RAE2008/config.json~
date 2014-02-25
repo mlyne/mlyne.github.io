@@ -8,12 +8,12 @@
     "link": ""
   },
   "text": {
-    "title": "Research Assessment Analysis - Institutional Academic Excellence",
+    "title": "Research Assessment Analysis 2008 - Institutional Academic Excellence",
     "more": "Network of Institutions grouped by the specialist areas that they have been associated with. Data derived from RAE 2008 analysis.\nNavigating the map:\nThe map’s default view is set to display all the categories and institutions at once. You can select the individual categories you’re interested in and more carefully analyze the links existing between them and the drugs. Understanding the map: As shown in the map’s navigation bar, a node’s color indicates the category it belongs to, and a disease node’s size indicates its hub degree (overall number of outbound links). That is, the more links a node sends to Institutions shown on the map, the bigger it appears on the map. Nodes are positioned on the map according to a topological placement algorithm, i.e. each node is positioned solely according to its linking pattern. Gephi was used for network analysis using the OpenOrd layout.\n Many algorithms make possible for a 2D rendering of an adjacent matrix - i.e. the matrix describing any graph. We used OpenOrd, a force-directed layout algorithm specialized to handle very large graphs. Force-directed layout algorithms share the same basic principle: minimizing the system’s energy while maximizing the use of the space available for the representation of the data. To minimize the system’s energy, one can, for instance, assume that nodes that are not linked to each other are pushing away from each other whereas nodes that are linked to each other are attracting each other.\n Through iterative steps the algorithm tries to find a way to position nodes where there is as little link overlap as possible. To maximize the use of the mapped space, the graph is spread as much as possible over the surface allocated for its display.\n What am I seeing?\n A node’s position on the map depends solely upon its links. A node has no predefined position, the latter being the result of the relations it has with other nodes. This means that a node with no links at all cannot be positioned on the map;\n North, East, South and West don’t matter.\n The displayed space is not based on the cardinal system (North, East, South, West), which means that the choice of a relative left-right or top-down position is purely arbitrary.\n Navigate inside the Diseasome map and analyze in detail the relations between diseases and drugs." ,
-    "intro": "Co-ocurrence network of Insolube drugs grouped by the diseases that they treat"
+    "intro": "Network of Institutions linked by their specialist areas"
   },
   "legend": {
-    "edgeLabel": "Cooccurring terms",
+    "edgeLabel": "Strength of expertise",
     "colorLabel": "Cluster of Institutions linked by their specialist area associations",
     "nodeLabel": "Institutions or their specialist areas"
   },
